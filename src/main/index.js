@@ -16,6 +16,7 @@ function createWindow() {
       },
     
   })
+  mainWindow.setTitle("My App")
 
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()

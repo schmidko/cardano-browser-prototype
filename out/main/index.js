@@ -14,6 +14,7 @@ function createWindow() {
       webviewTag: true
     }
   });
+  mainWindow.setTitle("My App");
   mainWindow.on("ready-to-show", () => {
     mainWindow.show();
   });
